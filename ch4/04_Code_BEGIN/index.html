@@ -32,13 +32,36 @@
         <header role="banner">
             <nav role="navigation" class="navbar navbar-default">
               <div class="container">
+	              <a class="banner-brand visible-md visible-lg" href="index.html">
+	              	<img src="img/logo.png" alt="Bootstrappin"
+	              	width="180">
+	              </a> 
+	              <!-- edited -->
+	              <div class="utility-nav">
+	              	<ul>
+	              		<li>
+	              			<a href="#" title="Login or Register">
+	              				<i class="icon fa fa-user fa-lg">
+	              					Log or Register
+	              				</i>
+	              			</a>
+	              		</li>
+	              		<li>
+	              			<a href="#" title="shopping-cart">
+	              				<i class="icon fa fa-shopping-cart fa-lg">
+	              					View Cart
+	              				</i>
+	              			</a>
+	              		</li>
+	              	</ul>
+	              </div>
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Bootstrappin'" width="120"></a>
+                  <a class="navbar-brand visible-xs visible-sm" href="index.html"><img src="img/logo.png" alt="Bootstrappin'" width="120"></a>
                 </div>
                 <div class="navbar-collapse collapse">
                   <ul class="nav navbar-nav">
@@ -114,6 +137,10 @@
                           <li><a href="#">One more separated link</a></li>
                         </ul>
                     </li>
+                   </ul>
+
+                   <ul class="nav navbar-nav pull-right">
+
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">All Departments <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -126,7 +153,9 @@
                           <li><a href="#">One more separated link</a></li>
                         </ul>
                     </li>
-                  </ul>
+                   	
+                 </ul>
+                
                 </div><!--/.nav-collapse -->
               </div><!--/.container -->
             </nav>
